@@ -1,0 +1,135 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+.loginpage {
+  background-color: #f0f2f5;
+}
+.loginpage1 {
+  width: 980px;
+  height: 536px;
+  margin: 0 auto;
+  display: flex;
+  padding: 20px 0;
+}
+.logopage {
+  width: 60%;
+  height: 266px;
+  padding: 0px 32px 0px 0px;
+}
+.imgpage {
+  width: 548px;
+  height: 54px;
+  padding: 112px 0px 16px;
+}
+.imgpage .imgpage1 {
+  width: 301px;
+  height: 106px;
+  margin: -28px;
+}
+.logotext h2 {
+  width: 500px;
+  height: 84px;
+  padding: 0px 0px 20px;
+  font-size: 28px;
+  margin: 0;
+  color: #1c1e21;
+}
+.login {
+  width: 396px;
+  height: 349px;
+  background-color: white;
+  border-radius: 6px;
+}
+.main-input-login {
+  width: 396px;
+  height: 132px;
+  padding-left: 15px;
+}
+.input-login {
+  width: 364px;
+  height: 52px;
+  padding: 6px 0px;
+  margin-top: 10px;
+}
+.text-login {
+  border: 1px solid #dddfe2;
+  border-radius: 6px;
+  font-size: 17px;
+  width: 330px;
+  height: 22px;
+  padding: 14px 16px;
+}
+.input-login .text-login:focus-within {
+  border: 1px solid #1877f2;
+}
+.pass-login {
+  vertical-align: center;
+  border: 1px solid #dddfe2;
+  border-radius: 6px;
+  font-size: 17px;
+  width: 330px;
+  height: 22px;
+  padding: 14px 16px;
+  margin-top: 5px;
+}
+.input-login .pass-login:focus-within {
+  border: 1px solid #1877f2;
+}
+.main-input-login .input-login2 {
+  padding: 6px 0 0;
+}
+.main-login2 {
+  width: 369px;
+  height: 54px;
+  padding: 6px 0 0;
+  padding-left: 15px;
+}
+.main-login2 .accept {
+  width: 364px;
+  height: 48px;
+  background-color: #1877f2;
+  padding: 0 16px;
+  color: white;
+  font-size: 20px;
+  border-radius: 6px;
+  border: none;
+}
+.password-miss {
+  margin: 16px 0 0;
+  padding-left: 140px;
+}
+.password-miss .password-miss-a {
+  color: #1877f2;
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.main-login3 {
+  border-bottom: 1px solid #dadde1;
+  margin: 20px 16px;
+}
+.new-acc {
+  padding: 6px 0 0;
+  height: 54px;
+  padding-left: 110px;
+}
+.new-acc-reg {
+  border: none;
+  border-radius: 6px;
+  font-size: 17px;
+  padding: 0 16px;
+  background: #42b72a;
+  color: white;
+  width: 178px;
+  height: 48px;
+}
+.reg-for-art {
+  border-top: none;
+  font-size: 14px;
+  color: #1c1e21;
+  margin-top: 28px;
+  font-weight: normal;
+  padding-top: 0;
+  text-align: center;
+}

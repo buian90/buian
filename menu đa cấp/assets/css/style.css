@@ -1,0 +1,34 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#main menu li {
+  position: relative;
+}
+.sub-menu {
+  list-style: none;
+  position: absolute;
+  width: 200px;
+  margin-left: 70px;
+  display: none;
+}
+.sub-menu a {
+}
+li:hover .sub-menu {
+  display: block;
+}
+body {
+  background: rgb(175, 140, 140);
+  font-family: "Roboto", sans-serif;
+}
+.sub-menu .sub-menu {
+  left: 60px;
+}
+img {
+  width: 300px;
+}
+* {
+  color: #ffffff;
+  font-size: 13px;
+}

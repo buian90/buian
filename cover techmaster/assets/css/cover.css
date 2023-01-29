@@ -1,0 +1,105 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+#header {
+  background-color: #30598c;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+}
+#logo {
+  position: relative;
+  padding: 7px 0px;
+  left: -150px;
+}
+#logo img {
+  max-width: 100px;
+  height: auto;
+}
+#main-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+i {
+  font-size: 20px;
+}
+#main-menu li a {
+  position: relative;
+  right: -150px;
+  font-size: 15px;
+  color: #f8f8f8;
+  display: block;
+  padding: 18px 20px;
+  text-decoration: none;
+}
+
+#sidebar {
+  flex-basis: 40%;
+  padding: 30px;
+}
+#content {
+  flex-basis: 60%;
+  max-width: 200px;
+}
+#footer {
+  background: #30598c;
+  font-size: 14px;
+  color: white;
+  line-height: 2.5rem;
+  padding: 3rem 0;
+}
+
+.row {
+  display: flex;
+  margin-left: 0;
+  margin-right: 0;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+}
+#footer .container-fluid {
+}
+ul {
+  text-decoration: none;
+  list-style: none;
+}
+i {
+  margin: 5px;
+}
+* a {
+  text-decoration: none;
+}
+
+#main-tech-card li {
+  flex-basis: 25%;
+}
+img {
+  margin: 5px;
+  width: 350px;
+}
+#main-tech-card li img {
+  max-width: 200%;
+  height: auto;
+  object-fit: cover;
+}
+.menu {
+  display: flex;
+}
+.maintop1 {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.maintop2 {
+  display: flex;
+}
