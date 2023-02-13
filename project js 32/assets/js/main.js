@@ -34,9 +34,7 @@ function checkNumber2(a) {
 // Bài 2.6
 function checkNumber3(a,b,c) {
     if (a + b === c) { console.log("c = a + b");
-        
     }
-    
 }
 
 
