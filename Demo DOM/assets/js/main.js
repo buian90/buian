@@ -69,6 +69,17 @@
    }
 
     // bài tập 7
+      function soNguyenTo(n) {
+        var flag = true
+          for (let index = 2; index < Math.SQRT(n); index++) {
+       if ( n % index == 0){flag = false;
+        break;
+        
+      }
+          }
+      }
+      
+  
 
 
 
