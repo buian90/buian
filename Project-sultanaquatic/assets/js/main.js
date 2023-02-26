@@ -21,7 +21,7 @@ var slider = {
     startSlideShow: function() {
       setInterval(() => {
         this.nextSlide();
-      }, 2000);
+      }, 1500);
     }
   };
   
