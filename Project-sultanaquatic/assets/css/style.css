@@ -71,16 +71,23 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-
   margin: 10px;
   padding: 5px;
 }
 .product img {
-  margin-top: 50px;
+  cursor: pointer;
   width: 300px;
-  height: 435px;
+  height: 400px;
 }
-
+.product-seller .img-seller {
+  width: 300px;
+  height: 400px;
+  margin-bottom: 20px;
+}
+.product-seller .product-1 {
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
 .product-1 img:hover {
   content: url("https://www.sultanaquatic.com/wp-content/uploads/2020/03/PicsArt_10-24-11.56.09-scaled-350x435.jpg");
 }
@@ -90,11 +97,11 @@
 }
 
 .product-3 img:hover {
-  content: url("https://www.sultanaquatic.com/wp-content/uploads/2020/11/PicsArt_11-02-11.14.22-scaled-350x435.jpg");
+  content: url("https://www.sultanaquatic.com/wp-content/uploads/2021/02/2-17-350x435.jpg");
 }
 
 .product-4 img:hover {
-  content: url("https://www.sultanaquatic.com/wp-content/uploads/2020/11/PicsArt_11-02-11.13.09-scaled-350x435.jpg");
+  content: url("https://www.sultanaquatic.com/wp-content/uploads/2021/02/4-12-350x435.jpg");
 }
 .product-5 img:hover {
   content: url("https://www.sultanaquatic.com/wp-content/uploads/2020/11/P9176336-scaled-350x435.jpg");
