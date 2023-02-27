@@ -74,6 +74,11 @@
   margin: 10px;
   padding: 5px;
 }
+.product-seller a {
+  text-decoration: none;
+  color: #444343;
+  font-size: 18px;
+}
 .product img {
   cursor: pointer;
   width: 300px;
