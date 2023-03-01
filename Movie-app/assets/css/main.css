@@ -1,0 +1,57 @@
+body {
+  background-color: #22254b;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.listing-product .item {
+  position: relative;
+  /* max-height: 500px; */
+  overflow: hidden;
+}
+.listing-product .item .box-image img {
+  object-fit: cover;
+  width: 100%;
+  max-height: 500px;
+}
+.listing-product .box-content {
+  background-color: #373b69;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.listing-product .box-content .title-film {
+  color: white;
+  text-transform: capitalize;
+  font-size: 22px;
+  width: 80%;
+}
+.listing-product .rating {
+  width: 20%;
+  text-align: center;
+  color: yellow;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #22254b;
+  margin-right: 5px;
+}
+.listing-product .box-description {
+  position: absolute;
+  background-color: white;
+  bottom: -100%;
+  transition: 0.5s;
+}
+.box-description h4 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.box-description p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+.listing-product .item:hover .box-description {
+  bottom: 0;
+  transition: 0.5s;
+}
