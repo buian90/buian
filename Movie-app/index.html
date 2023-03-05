@@ -11,13 +11,18 @@
     />
     <!-- import css -->
     <link rel="stylesheet" href="./assets/css/main.css" />
-    <title>Web Film</title>
+    <title>Web Film FE32</title>
   </head>
   <body>
+    <div class="warp-form">
+      <form class="form">
+        <input type="text" class="input-form" placeholder="Search" />
+      </form>
+    </div>
     <div class="listing-product">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-sm-6 col-md-3">
+          <!-- <div class="col-12 col-sm-6 col-md-3">
             <div class="item">
               <div class="box-image">
                 <img
@@ -40,11 +45,20 @@
                 </p>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
+    <div class="pagi-listing">
+      <button class="pagi-button pre">Trang trước ...</button>
+      <button class="pagi-button next">Trang sau ...</button>
+    </div>
 
+    <!-- import axios -->
+    <script src="./lib/axios/axios.min.js"></script>
+    <!-- import bootstrap -->
     <script src="lib/bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.min.js"></script>
+    <!-- import js -->
+    <script src="./assets/js/main.js"></script>
   </body>
 </html>
