@@ -138,7 +138,18 @@ preMore.addEventListener ('click', () => {
    }
     
 })
-
+// bước 7.bonus : làm menu mobile
+// bước 7.1 : truy cập phần tử và truy cập vào nội dung content mobile
+const btnOpen = document.querySelector('.btn-mobile-open')
+const ctnMobile = document.querySelector('#wrap-mobile')
+const btnClose = document.querySelector('.btn-close')
+// bước 7.2 : thêm event vào nút menu
+btnOpen.addEventListener('click',() => {
+  ctnMobile.style.height = '100%'
+})
+btnClose.addEventListener('click', () => {
+  ctnMobile.style.height = '0'
+})
 
 
 

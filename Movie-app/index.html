@@ -11,13 +11,63 @@
     />
     <!-- import css -->
     <link rel="stylesheet" href="./assets/css/main.css" />
+    <!-- import fontawesome -->
+    <link
+      rel="stylesheet"
+      href="./lib/fontawesome-free-6.3.0-web/css/brands.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./lib/fontawesome-free-6.3.0-web/css/fontawesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./lib/fontawesome-free-6.3.0-web/css/solid.min.css"
+    />
     <title>Web Film FE32</title>
   </head>
   <body>
+    <!-- header -->
+    <div class="header-main">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-2 col-md-2">
+            <div class="logo">
+              <img src="./assets/img/logo1.png" alt="" />
+            </div>
+          </div>
+          <div class="col-12 col-sm-10 col-md-10">
+            <!-- menu dành cho desktop -->
+            <ul class="menu-main">
+              <li>Trang chủ</li>
+              <!-- <li>Thể loại</li>
+              <li>Phim lẻ</li> -->
+              <li>Phim đang chiếu</li>
+              <li>Lịch chiếu</li>
+              <li>Phim hoàn thành</li>
+              <li>Phim sắp hoàn thành</li>
+            </ul>
+            <!-- button mobile (nút tắt menu) -->
+            <div class="wrap-btn">
+              <button class="btn-mobile-open">
+                <i class="fa-solid fa-bars"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="warp-form">
-      <form class="form">
-        <input type="text" class="input-form" placeholder="Search" />
-      </form>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-12">
+            <form class="form">
+              <input type="text" class="input-form" placeholder="Search" />
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="listing-product">
       <div class="container">
@@ -53,7 +103,19 @@
       <button class="pagi-button pre">Trang trước ...</button>
       <button class="pagi-button next">Trang sau ...</button>
     </div>
-
+    <!-- menu table + menu mobile  -->
+    <div id="wrap-mobile">
+      <button class="btn-close">X</button>
+      <ul class="menu-mobile">
+        <li>Trang chủ</li>
+        <!-- <li>Thể loại</li>
+    <li>Phim lẻ</li> -->
+        <li>Phim đang chiếu</li>
+        <li>Lịch chiếu</li>
+        <li>Phim hoàn thành</li>
+        <li>Phim sắp hoàn thành</li>
+      </ul>
+    </div>
     <!-- import axios -->
     <script src="./lib/axios/axios.min.js"></script>
     <!-- import bootstrap -->
