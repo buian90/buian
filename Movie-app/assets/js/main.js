@@ -59,12 +59,16 @@ const SEARCH_API = 'https://api.themoviedb.org/3/search/movie?api_key=3fd2be6f0c
         
         htmlCode += ` <div class="col-12 col-sm-6 col-md-3">
         <div class="item">
-          <div class="box-image">
+
+          <a href='./detail.html?id=${value.id}'>
+            <div class="box-image">
             <img
               src="${IMG_PATH+value.poster_path}" 
-              alt=""
             />
-          </div>
+            </div>
+          </a>
+      
+
           <div class="box-content">
             <h3 class="title-film">${value.original_title}</h3>
             <p class="rating ${colorRating(value.vote_average)}">${value.vote_average}</p>
