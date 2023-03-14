@@ -1,0 +1,10 @@
+.detail-product p, h3 {
+    color: #fff;
+}
+.detail-product {
+    margin-top: 50px;
+}
+.detail-product img {
+    width: 100%;
+    object-fit: cover;
+}
