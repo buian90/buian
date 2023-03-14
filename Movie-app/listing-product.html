@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Import listing-css -->
+    <link rel="stylesheet" href="./assets/css/listing.css" />
     <!-- Import Bootstrap -->
     <link
       rel="stylesheet"
@@ -39,10 +41,10 @@
           <div class="col-12 col-sm-10 col-md-10">
             <!-- menu dành cho desktop -->
             <ul class="menu-main">
-              <li><a href="./">Trang chủ</a></li>
+              <li>Trang chủ</li>
               <!-- <li>Thể loại</li>
               <li>Phim lẻ</li> -->
-              <li><a href="./listing-product.html">listing-product</a></li>
+              <li>Phim đang chiếu</li>
               <li>Lịch chiếu</li>
               <li>Phim hoàn thành</li>
               <li>Phim sắp hoàn thành</li>
@@ -57,60 +59,42 @@
         </div>
       </div>
     </div>
-
-    <div class="warp-form">
+    <!-- content -->
+    <div class="listing-ecommerce">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-sm-12 col-md-12">
-            <form class="form">
-              <input type="text" class="input-form" placeholder="Search" />
-            </form>
+          <div class="col-12 col-sm-6 col-md-3">
+            <a href="#"
+              ><img
+                src="https://api-online-seven.vercel.app/images/1.jpg"
+                alt=""
+            /></a>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <a href="#"
+              ><img
+                src="https://api-online-seven.vercel.app/images/1.jpg"
+                alt=""
+            /></a>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <a href="#"
+              ><img
+                src="https://api-online-seven.vercel.app/images/1.jpg"
+                alt=""
+            /></a>
           </div>
         </div>
       </div>
-    </div>
-    <div class="listing-product">
-      <div class="container">
-        <div class="row">
-          <!-- <div class="col-12 col-sm-6 col-md-3">
-            <div class="item">
-              <div class="box-image">
-                <img
-                  src="./assets/img/t6HIqrRAclMCA60NsSmeqe9RmNV.jpg"
-                  alt=""
-                />
-              </div>
-              <div class="box-content">
-                <h3 class="title-film">Tiêu đề phim</h3>
-                <p class="rating">10.0</p>
-              </div>
-              <div class="box-description">
-                <h4>Over View</h4>
-                <p>
-                  Overview Set more than a decade after the events of the first
-                  film, learn the story of the Sully family (Jake, Neytiri, and
-                  their kids), the trouble that follows them, the lengths they
-                  go to keep each other safe, the battles they fight to stay
-                  alive, and the tragedies they endure.
-                </p>
-              </div>
-            </div>
-          </div> -->
-        </div>
-      </div>
-    </div>
-    <div class="pagi-listing">
-      <button class="pagi-button pre">Trang trước ...</button>
-      <button class="pagi-button next">Trang sau ...</button>
     </div>
     <!-- menu table + menu mobile  -->
     <div id="wrap-mobile">
       <button class="btn-close">X</button>
       <ul class="menu-mobile">
-        <li>Trang chủ</li>
+        <li><a href="./">Trang chủ</a></li>
         <!-- <li>Thể loại</li>
     <li>Phim lẻ</li> -->
-        <li>Phim đang chiếu</li>
+        <li><a href="./listing-product.html">listing-product</a></li>
         <li>Lịch chiếu</li>
         <li>Phim hoàn thành</li>
         <li>Phim sắp hoàn thành</li>
@@ -121,6 +105,8 @@
     <!-- import bootstrap -->
     <script src="lib/bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.min.js"></script>
     <!-- import js -->
-    <script src="./assets/js/main.js"></script>
+    <!-- <script src="./assets/js/main.js"></script> -->
+    <!-- Import js listing -->
+    <script src="./assets/js/listing.js"></script>
   </body>
 </html>
